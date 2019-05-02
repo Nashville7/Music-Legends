@@ -163,19 +163,25 @@ div img {
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif; }
 
-.quote p {
-  position: absolute;
-  top: 95rem;
-  font-size: 2rem;
-  color: #131313;
-  text-shadow: 2px 0px 0px black; }
+.quote {
+  position: relative; }
+  .quote p {
+    position: absolute;
+    top: 3rem;
+    font-size: 2rem;
+    width: 88vw;
+    color: #131313;
+    text-shadow: 2px 0px 0px black; }
 
-.quote2 p {
-  position: absolute;
-  top: 153rem;
-  font-size: 2rem;
-  color: #080808;
-  text-shadow: 2px 0px 0px black; }
+.quote2 {
+  position: relative; }
+  .quote2 p {
+    position: absolute;
+    top: 3rem;
+    font-size: 2rem;
+    width: 88vw;
+    color: #080808;
+    text-shadow: 2px 0px 0px black; }
 
 * {
   margin: 0;
@@ -333,7 +339,7 @@ footer {
 
   .quote p {
     position: absolute;
-    top: 115rem;
+    top: 0rem;
     font-size: 1rem;
     font-weight: bolder;
     color: #131313;
@@ -341,7 +347,7 @@ footer {
 
   .quote2 p {
     position: absolute;
-    top: 206rem;
+    top: 0rem;
     font-size: 1rem;
     font-weight: bolder;
     color: #131313;

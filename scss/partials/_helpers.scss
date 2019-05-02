@@ -211,10 +211,12 @@ div img {
 
 // quotes
   .quote {
+      position: relative;
     p {
     position: absolute;
-    top: 95rem;
+    top: 3rem;
     font-size: 2rem;
+    width: 88vw;
     color: rgb(19, 19, 19);
     text-shadow: 2px 0px 0px black;
     // box-shadow: -4px 1px 21px black;
@@ -222,10 +224,12 @@ div img {
 }
 
 .quote2 {
+    position: relative;
     p {
     position: absolute;
-    top: 153rem;
+    top: 3rem;
     font-size: 2rem;
+    width: 88vw;
     color: rgb(8, 8, 8);
     text-shadow: 2px 0px 0px black;
     // box-shadow: -4px 1px 21px black;
