@@ -1,0 +1,72 @@
+// Grid of the legends section
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: auto;
+    margin: auto;
+    grid-gap: 1rem;
+    margin-top: 3rem;
+    width: 85vw;
+}
+
+.parallax {
+    background-image:linear-gradient(rgba(84, 87, 84, 0.137),rgba(163, 163, 154, 0.465)),url(../images/black-and-white-guitar-music-12544.jpg);
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+        p {
+            position: absolute;
+            transform: translate(-50%, 50%);
+            top: 30%;
+            left: 50%;
+            font-size: xx-large;
+            box-shadow: 5px 1px 26px white;
+            font-family: 'Playfair Display SC', serif;
+            padding: 1rem;
+            background: white;
+            animation: move 5s infinite;
+            animation-direction: alternate;
+            font-weight: bolder;
+        }
+}
+
+@keyframes move {
+    from {background: white;}
+    to{background: transparent;}
+}
+
+.parallax2 {
+    background-image:linear-gradient(rgba(70, 66, 66, 0.335),rgba(223, 223, 201, 0.465)),url(../images/band-e-guitar-guitar-3092.jpg);
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    p {
+        position: absolute;
+        transform: translate(-50%, 50%);
+        top: 30%;
+        left: 50%;
+        font-size: xx-large;
+        box-shadow: 5px 1px 26px white;
+        font-family: 'Playfair Display SC', serif;
+        padding: 1rem;
+        background: white;
+        animation: move 5s infinite;
+        animation-direction: alternate;
+        font-weight: bolder;
+        // animation-duration: 30s;
+        // animation-iteration-count: infinite;
+    }
+}
+
+@keyframes move {
+    from {background: white;}
+    to{background: transparent;}
+}
+

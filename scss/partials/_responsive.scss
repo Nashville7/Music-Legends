@@ -1,0 +1,126 @@
+/* Media Queries -------------------- */
+
+
+// How to Use CSS to Resize Your (Foreground) Images While Preserving Their Aspect Ratio
+// The simplest and most painless way to quickly get all your existing foreground pictures to fit a mobile screen is to resize them with CSS. This can easily be done with the following rules.
+
+
+/* Responsive Design */
+
+    /* Mobile Devices */
+/* Portrait and Landscape */
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 767px){
+
+      #logo {
+         // height: 46px;
+         // padding-right: 20px;
+         // position: fixed;
+         // top: 7px;
+         // left: 0.5rem;
+         // width: 127px;
+         // z-index: 1001;
+         display: none;
+      }
+
+      a {
+         font-size: 13px;
+    padding: 0.7rem;
+      }
+
+
+      ul {
+         padding-top: 1rem;
+         padding-left: 12px;
+     }
+
+     .one {
+      margin-bottom: 3rem;
+     }
+
+     .two {
+      margin-bottom: 3rem;
+     }
+
+     .three {
+      margin-bottom: 3rem;
+     }
+     
+     .quote p {
+      position: absolute;
+      top: 115rem;
+      font-size: 1rem;
+      font-weight: bolder;
+      color: #131313;
+      text-shadow: none;
+  }
+     
+
+
+      .parallax {
+         height: 25vh;
+
+         p {
+            position: absolute;
+            transform: translate(-50%, 50%);
+            top: -15%;
+            left: 50%;
+            font-size: 19px;
+         }
+      }
+
+      .Best {
+         font-size: 31px;
+      }
+
+      .text h4 {
+         font-size: 21px;
+     }
+
+     .text p {
+      font-size: 15px;
+     }
+     
+      h1 {
+         font-size: 1.4rem;
+      }
+
+      .head2 {
+         font-size: 1rem;
+      }
+      .grid {
+         display: table;
+      }
+      .heading {
+         left: 10rem;
+         top: 133px;
+         position: absolute;
+     }
+
+     .first {
+      height: 300vh;
+      }
+
+      .second {
+         height: 300vh;
+         }
+      }
+
+  /* Responsive Design */
+    /*Tablets*/
+@media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1023px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+   
+ }
+    
+ /* Responsive Design
+    /*Desktop*/
+ @media screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1600px) 
+    and (-webkit-min-device-pixel-ratio: 1) { 
+
+ }

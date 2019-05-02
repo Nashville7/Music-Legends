@@ -1,0 +1,384 @@
+.heading {
+  position: absolute;
+  padding-top: 5rem;
+  top: 10rem;
+  left: 50rem; }
+
+.first {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  background: #fff; }
+
+.second {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  background: #fff; }
+
+#logo {
+  height: 60px;
+  padding-right: 20px;
+  position: fixed;
+  top: 7px;
+  width: 181px;
+  z-index: 1001; }
+
+.one {
+  background: red;
+  width: 100%;
+  height: 20rem;
+  position: relative;
+  box-shadow: 8px 9px 8px black; }
+  .one div {
+    overflow: hidden;
+    width: 100%;
+    height: 100%; }
+  .one img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out; }
+  .one img:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+
+.two {
+  background: black;
+  width: 100%;
+  height: 20rem;
+  position: relative;
+  box-shadow: 8px 9px 8px black; }
+  .two div {
+    overflow: hidden;
+    height: 100%;
+    width: 100%; }
+  .two img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out; }
+  .two img:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+
+.three {
+  background: blue;
+  width: 100%;
+  height: 20rem;
+  position: relative;
+  box-shadow: 8px 9px 8px black; }
+  .three div {
+    overflow: hidden;
+    height: 100%;
+    width: 100%; }
+  .three img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out; }
+  .three img:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+
+.Best {
+  font-size: 40px;
+  text-align: center;
+  text-shadow: none;
+  margin-top: 1.5rem;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  text-shadow: 5px 5px 5px white; }
+
+.head2 {
+  font-size: 2rem;
+  color: #CCC9E7;
+  text-align: center;
+  text-shadow: 2px 8px 0px black;
+  font-family: 'Kaushan Script', cursive; }
+
+div img {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.one .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .9s ease; }
+
+.one:hover .overlay {
+  height: 100%;
+  background-color: rgba(19, 21, 22, 0.924); }
+
+.two .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .9s ease; }
+
+.two:hover .overlay {
+  height: 100%;
+  background-color: rgba(19, 21, 22, 0.952); }
+
+.three .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .9s ease; }
+
+.three:hover .overlay {
+  height: 100%;
+  background-color: rgba(19, 21, 22, 0.924); }
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center; }
+  .text h4 {
+    font-size: 25px; }
+  .text p {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif; }
+
+.quote p {
+  position: absolute;
+  top: 95rem;
+  font-size: 2rem;
+  color: #131313;
+  text-shadow: 2px 0px 0px black; }
+
+.quote2 p {
+  position: absolute;
+  top: 153rem;
+  font-size: 2rem;
+  color: #080808;
+  text-shadow: 2px 0px 0px black; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(58, 55, 59, 0.616)), url(../images/488011.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover; }
+
+nav {
+  width: 100%;
+  height: 4.5rem;
+  background-color: #000000;
+  position: fixed;
+  z-index: 1000; }
+
+ul {
+  padding-top: 1.7rem;
+  padding-left: 11.5rem; }
+
+li {
+  list-style: none;
+  display: inline; }
+
+a {
+  text-decoration: none;
+  color: #CCC9E7;
+  font-size: 20px;
+  padding: 0.8rem;
+  transition: all 0.5s;
+  font-family: 'Cinzel', serif; }
+
+a:hover {
+  background: white;
+  color: #000000; }
+
+h1 {
+  font-size: 3.4rem;
+  color: #CCC9E7;
+  text-shadow: 2px 8px 0px black;
+  font-family: 'Playfair Display SC', serif; }
+
+hr {
+  width: 20rem;
+  margin-left: 2rem; }
+
+footer {
+  height: 12vh;
+  width: 100%;
+  background: black;
+  position: relative; }
+  footer p {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 39%;
+    left: 42%;
+    font-size: 17px;
+    font-family: 'Cinzel', serif; }
+    footer p span {
+      padding-left: 3px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: auto;
+  margin: auto;
+  grid-gap: 1rem;
+  margin-top: 3rem;
+  width: 85vw; }
+
+.parallax {
+  background-image: linear-gradient(rgba(84, 87, 84, 0.137), rgba(163, 163, 154, 0.465)), url(../images/black-and-white-guitar-music-12544.jpg);
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative; }
+  .parallax p {
+    position: absolute;
+    transform: translate(-50%, 50%);
+    top: 30%;
+    left: 50%;
+    font-size: xx-large;
+    box-shadow: 5px 1px 26px white;
+    font-family: 'Playfair Display SC', serif;
+    padding: 1rem;
+    background: white;
+    animation: move 5s infinite;
+    animation-direction: alternate;
+    font-weight: bolder; }
+
+@keyframes move {
+  from {
+    background: white; }
+  to {
+    background: transparent; } }
+.parallax2 {
+  background-image: linear-gradient(rgba(70, 66, 66, 0.335), rgba(223, 223, 201, 0.465)), url(../images/band-e-guitar-guitar-3092.jpg);
+  width: 100%;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative; }
+  .parallax2 p {
+    position: absolute;
+    transform: translate(-50%, 50%);
+    top: 30%;
+    left: 50%;
+    font-size: xx-large;
+    box-shadow: 5px 1px 26px white;
+    font-family: 'Playfair Display SC', serif;
+    padding: 1rem;
+    background: white;
+    animation: move 5s infinite;
+    animation-direction: alternate;
+    font-weight: bolder; }
+
+@keyframes move {
+  from {
+    background: white; }
+  to {
+    background: transparent; } }
+/* Media Queries -------------------- */
+/* Responsive Design */
+/* Mobile Devices */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  #logo {
+    display: none; }
+
+  a {
+    font-size: 13px;
+    padding: 0.7rem; }
+
+  ul {
+    padding-top: 1rem;
+    padding-left: 12px; }
+
+  .one {
+    margin-bottom: 3rem; }
+
+  .two {
+    margin-bottom: 3rem; }
+
+  .three {
+    margin-bottom: 3rem; }
+
+  .quote p {
+    position: absolute;
+    top: 115rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #131313;
+    text-shadow: none; }
+
+  .parallax {
+    height: 25vh; }
+    .parallax p {
+      position: absolute;
+      transform: translate(-50%, 50%);
+      top: -15%;
+      left: 50%;
+      font-size: 19px; }
+
+  .Best {
+    font-size: 31px; }
+
+  .text h4 {
+    font-size: 21px; }
+
+  .text p {
+    font-size: 15px; }
+
+  h1 {
+    font-size: 1.4rem; }
+
+  .head2 {
+    font-size: 1rem; }
+
+  .grid {
+    display: table; }
+
+  .heading {
+    left: 10rem;
+    top: 133px;
+    position: absolute; }
+
+  .first {
+    height: 300vh; }
+
+  .second {
+    height: 300vh; } }
+/* Responsive Design */
+/*Tablets*/
+/* Responsive Design
+   /*Desktop*/
+
+/*# sourceMappingURL=main.css.map */
