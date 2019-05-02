@@ -339,9 +339,26 @@ footer {
     color: #131313;
     text-shadow: none; }
 
+  .quote2 p {
+    position: absolute;
+    top: 206rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #131313;
+    text-shadow: none; }
+
   .parallax {
     height: 25vh; }
     .parallax p {
+      position: absolute;
+      transform: translate(-50%, 50%);
+      top: -15%;
+      left: 50%;
+      font-size: 19px; }
+
+  .parallax2 {
+    height: 25vh; }
+    .parallax2 p {
       position: absolute;
       transform: translate(-50%, 50%);
       top: -15%;
@@ -372,10 +389,18 @@ footer {
     position: absolute; }
 
   .first {
-    height: 300vh; }
+    height: 250vh; }
 
   .second {
-    height: 300vh; } }
+    height: 250vh; }
+
+  footer p {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 39%;
+    left: 2.1rem;
+    font-size: 14px; } }
 /* Responsive Design */
 /*Tablets*/
 /* Responsive Design
