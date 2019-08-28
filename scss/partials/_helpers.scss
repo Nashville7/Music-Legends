@@ -242,12 +242,13 @@ div img {
     padding: 0;
     margin: 0;
     // background: rgba(33, 84, 110, 0.6);
-    background-image: url(../images/enrique-cadena-l7K7GpalaZ4-unsplash.jpg);
+    // background-image: url(../images/enrique-cadena-l7K7GpalaZ4-unsplash.jpg);
+    background-image: url(../images/jazz_music_fire_silhouette_jazzman_28173_1280x720.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container {
+.gallery-container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     /* width: 95%; */

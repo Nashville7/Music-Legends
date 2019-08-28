@@ -186,12 +186,12 @@ div img {
 .gallery-body {
   padding: 0;
   margin: 0;
-  background-image: url(../images/enrique-cadena-l7K7GpalaZ4-unsplash.jpg);
+  background-image: url(../images/jazz_music_fire_silhouette_jazzman_28173_1280x720.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
-.container {
+.gallery-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* width: 95%; */
@@ -355,7 +355,7 @@ footer {
 /* Responsive Design */
 /* Mobile Devices */
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 599px) {
   #logo {
     display: none; }
 
@@ -445,7 +445,10 @@ footer {
     position: absolute;
     top: 39%;
     left: 2.1rem;
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .gallery-container {
+    display: block; } }
 /* Responsive Design */
 /*Tablets*/
 /* Responsive Design

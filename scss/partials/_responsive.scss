@@ -11,7 +11,7 @@
 /* Portrait and Landscape */
 @media only screen 
     and (min-device-width: 320px) 
-    and (max-device-width: 767px){
+    and (max-device-width: 599px){
 
       #logo {
          display: none;
@@ -126,14 +126,20 @@
             left: 2.1rem;
             font-size: 14px;
          }
+         
+      // Gallery
+      .gallery-container {
+         display: block;
       }
+      }
+
 
 
 
   /* Responsive Design */
     /*Tablets*/
 @media only screen 
-    and (min-device-width: 768px) 
+    and (min-device-width: 600px) 
     and (max-device-width: 1023px) 
     and (-webkit-min-device-pixel-ratio: 1) {
    
