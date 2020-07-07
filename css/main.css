@@ -16,14 +16,6 @@
   margin: auto;
   background: #fff; }
 
-#logo {
-  height: 60px;
-  padding-right: 20px;
-  position: fixed;
-  top: 7px;
-  width: 181px;
-  z-index: 1001; }
-
 .one {
   width: 100%;
   height: 20rem;
