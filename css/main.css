@@ -87,15 +87,15 @@
   text-shadow: none;
   margin-top: 1.5rem;
   color: black;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   text-shadow: 5px 5px 5px white; }
 
 .head2 {
   font-size: 2rem;
-  color: #CCC9E7;
+  color: #ccc9e7;
   text-align: center;
   text-shadow: 2px 8px 0px black;
-  font-family: 'Kaushan Script', cursive; }
+  font-family: "Kaushan Script", cursive; }
 
 div img {
   display: block;
@@ -110,7 +110,7 @@ div img {
   overflow: hidden;
   width: 100%;
   height: 0;
-  transition: .9s ease; }
+  transition: 0.9s ease; }
 
 .one:hover .overlay {
   height: 100%;
@@ -124,7 +124,7 @@ div img {
   overflow: hidden;
   width: 100%;
   height: 0;
-  transition: .9s ease; }
+  transition: 0.9s ease; }
 
 .two:hover .overlay {
   height: 100%;
@@ -138,7 +138,7 @@ div img {
   overflow: hidden;
   width: 100%;
   height: 0;
-  transition: .9s ease; }
+  transition: 0.9s ease; }
 
 .three:hover .overlay {
   height: 100%;
@@ -158,7 +158,7 @@ div img {
     font-size: 25px; }
   .text p {
     font-size: 17px;
-    font-family: 'Times New Roman', Times, serif; }
+    font-family: "Times New Roman", Times, serif; }
 
 .quote {
   position: relative; }
@@ -193,7 +193,7 @@ div img {
   grid-template-columns: repeat(3, 1fr);
   margin: auto;
   padding-top: 2rem;
-  width: 82VW;
+  width: 82vw;
   grid-gap: 1rem;
   box-shadow: 9px 13px 19px 0px black; }
 
@@ -277,8 +277,7 @@ header {
   background-color: #111;
   color: white;
   padding: 10px 15px;
-  border: none;
-  position: fixed; }
+  border: none; }
 
 .openbtn:hover {
   background-color: #444; }
